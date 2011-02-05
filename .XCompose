@@ -21,8 +21,6 @@ include /usr/share/X11/locale/en_US.UTF-8/Compose
 #
 <Multi_key> <Cyrillic_be>       : "«"   guillemotleft  # LEFT DOUBLE ANGLE QUOTATION
 <Multi_key> <Cyrillic_yu>       : "»"   guillemotright # RIGHT DOUBLE ANGLE QUOTATION
-<Multi_key> <comma> <comma>	: "„"   U201e # DOUBLE LOW-9 QUOTATION MARK
-<Multi_key> <period> <period>  	: "“"   U201c # LEFT DOUBLE QUOTATION MARK
 
 
 
