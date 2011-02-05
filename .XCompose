@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-#
-# .XCompose
-#
-# $Id: .XCompose,v 1.31 2008/09/18 17:57:14 deskpot Exp $
+
 include /usr/share/X11/locale/en_US.UTF-8/Compose
-#
-#
+
+
+
 # Cyrillic
 # Old (pre-1917) russian:
 <Multi_key> <Cyrillic_i>    		: "i"   U1110 			# строчная "и десятеричное"
@@ -23,46 +20,39 @@ include /usr/share/X11/locale/en_US.UTF-8/Compose
 # Quotation marks
 #
 <Multi_key> <Cyrillic_be>       : "«"   guillemotleft  # LEFT DOUBLE ANGLE QUOTATION
-<Multi_key> <comma>             : "«"   guillemotleft  # LEFT DOUBLE ANGLE QUOTATION
 <Multi_key> <Cyrillic_yu>       : "»"   guillemotright # RIGHT DOUBLE ANGLE QUOTATION
-<Multi_key> <period>            : "»"   guillemotright # RIGHT DOUBLE ANGLE QUOTATION
-<Multi_key> <Cyrillic_BE>       : "„"   U201e # DOUBLE LOW-9 QUOTATION MARK
-<Multi_key> <less>              : "„"   U201e # DOUBLE LOW-9 QUOTATION MARK
-<Multi_key> <Cyrillic_YU>       : "“"   U201c # LEFT DOUBLE QUOTATION MARK
-<Multi_key> <greater>           : "“"   U201c # LEFT DOUBLE QUOTATION MARK
-#
-<Multi_key> <Cyrillic_zhe>      : "‘"   U2018 # LEFT SINGLE QUOTATION MARK
-<Multi_key> <semicolon>         : "‘"   U2018 # LEFT SINGLE QUOTATION MARK
-<Multi_key> <Cyrillic_e>        : "’"   U2019 # RIGHT SINGLE QUOTATION MARK
-<Multi_key> <apostrophe>        : "’"   U2019 # RIGHT SINGLE QUOTATION MARK
-<Multi_key> <Cyrillic_ZHE>      : "“"   U201c # LEFT DOUBLE QUOTATION MARK
-<Multi_key> <colon>             : "“"   U201c # LEFT DOUBLE QUOTATION MARK
-<Multi_key> <Cyrillic_E>        : "”"   U201d # RIGHT DOUBLE QUOTATION MARK
-<Multi_key> <quotedbl>          : "”"   U201d # RIGHT DOUBLE QUOTATION MARK
+<Multi_key> <comma> <comma>	: "„"   U201e # DOUBLE LOW-9 QUOTATION MARK
+<Multi_key> <period> <period>  	: "“"   U201c # LEFT DOUBLE QUOTATION MARK
 
 
 
-<Multi_key> <apostrophe>			: "́ "    U0301 			# ударение
-<Multi_key> <Cyrillic_e>			: "́" 	U0301 			# ударение
-#<Multi_key> <minus>             	: "—"   emdash      	# EM DASH
-#<Multi_key> <underscore>        	: "–"   endash      	# EN DASH
-<Multi_key> <Cyrillic_u>        	: "€"   EuroSign    	# EURO SIGN
-<Multi_key> <e>                 	: "€"   EuroSign    	# EURO SIGN
-<Multi_key> <Cyrillic_a>        	: "£"   sterling    	# POUND SIGN
-<Multi_key> <f>                 	: "£"   sterling    	# POUND SIGN
-<Multi_key> <Cyrillic_es>       	: "©"   copyright    	# COPYRIGHT SIGN
-<Multi_key> <c>                 	: "©"   copyright    	# COPYRIGHT SIGN
-<Multi_key> <Cyrillic_ka>       	: "®"   registered   	# REGISTERED SIGN
-<Multi_key> <r>                 	: "®"   registered   	# REGISTERED SIGN
-<Multi_key> <Cyrillic_ie>       	: "™"   U2122        	# TRADE MARK SIGN
-<Multi_key> <t>                 	: "™"   U2122        	# TRADE MARK SIGN
+<Multi_key> <apostrophe>		: "́"   U0301 		# ударение
+<Multi_key> <Cyrillic_e>		: "́" 	U0301 		# ударение
+<Multi_key> <minus> <minus>            	: "—"   emdash      	# EM DASH
+<Multi_key> <underscore> <underscore> 	: "–"   endash      	# EN DASH
+
+
+
+<Multi_key> <Cyrillic_u> <Cyrillic_u>  	: "€"   EuroSign    	# EURO SIGN
+<Multi_key> <e> <e>                 	: "€"   EuroSign    	# EURO SIGN
+<Multi_key> <Cyrillic_a> <Cyrillic_a> 	: "£"   sterling    	# POUND SIGN
+<Multi_key> <f> <f>                 	: "£"   sterling    	# POUND SIGN
+<Multi_key> <Cyrillic_es> <Cyrillic_es>	: "©"   copyright    	# COPYRIGHT SIGN
+<Multi_key> <c> <c>                	: "©"   copyright    	# COPYRIGHT SIGN
+<Multi_key> <Cyrillic_ka> <Cyrillic_ka>	: "®"   registered   	# REGISTERED SIGN
+<Multi_key> <r> <r>                	: "®"   registered   	# REGISTERED SIGN
+<Multi_key> <Cyrillic_ie> <Cyrillic_ie>	: "™"   U2122        	# TRADE MARK SIGN
+<Multi_key> <t> <t>                 	: "™"   U2122        	# TRADE MARK SIGN
+
+
+
+<Multi_key> <9> <9>	: "☹"   U2639
+<Multi_key> <0> <0> 	: "☺"   U263A
 
 
 
 # maths
-<Multi_key> <plus> <minus>             : "±" plusminus
-<Multi_key> <minus> <minus>            : "—"   emdash
-<Multi_key> <underscore> <underscore>  : "—"   emdash    
+<Multi_key> <plus> <minus>             : "±" plusminus    
 <Multi_key> <x> <x>                    : "×" multiply
 <Multi_key> <asterisk> <asterisk>      : "∗" U8727
 <Multi_key> <minus> <colon>            : "÷" division
@@ -103,67 +93,56 @@ include /usr/share/X11/locale/en_US.UTF-8/Compose
 
 
 
-<Multi_key> <9> 					: "☹"   U2639
-<Multi_key> <0> 					: "☺"   U263A
-<Multi_key> <n>						: "♫"   U266B
-<Multi_key> <Cyrillic_te>				: "♫"   U266B
-<Multi_key> <l>						: "♥"  U2665 
-<Multi_key> <Cyrillic_de>				: "♥"  U2665
-<Multi_key> <p>                 			: "☮"   U262E
-<Multi_key>  <Cyrillic_ze>      			: "☮"   U262E
-
-
-
 #Greece
-<Multi_key> <a> <l> <p> <h> <a>  : α
-<Multi_key> <b> <e> <t> <a>  : β
-<Multi_key> <g> <a> <m> <m> <a>  : γ
-<Multi_key> <d> <e> <l> <t> <a>  : δ
-<Multi_key> <e> <p> <s> <i> <l> <o> <n>  : ε
-<Multi_key> <z> <e> <t> <a>  : ζ
-<Multi_key> <e> <t> <a>  : η
-<Multi_key> <t> <h> <e> <t> <a>  : θ
-<Multi_key> <i> <o> <t> <a>  : ι
-<Multi_key> <k> <a> <p> <p> <a>  : κ
-<Multi_key> <l> <a> <m> <b> <d> <a>  : λ
-<Multi_key> <m> <u>  : μ
-<Multi_key> <n> <u>  : ν
-<Multi_key> <x> <i>  : ξ
-<Multi_key> <o> <m> <i> <k> <r> <o> <n>  : ο
-<Multi_key> <p> <i>  : π
-<Multi_key> <r> <h> <o>  : ρ
-<Multi_key> <s> <i> <g> <m> <a>  : ς
-<Multi_key> <s> <i> <g> <m> <a>  : σ
-<Multi_key> <t> <a> <u>  : τ
-<Multi_key> <u> <p> <s> <i> <l> <o> <n>  : υ
-<Multi_key> <p> <h> <i>  : φ
-<Multi_key> <c> <h> <i>  : χ
-<Multi_key> <p> <s> <i>  : ψ
-<Multi_key> <o> <m> <e> <g> <a>  : ω
-<Multi_key> <A> <l> <p> <h> <a>  : "Α"
-<Multi_key> <B> <e> <t> <a>  : "Β"
-<Multi_key> <G> <a> <m> <m> <a>  : "Γ"
-<Multi_key> <D> <e> <l> <t> <a>  : "Δ"
-<Multi_key> <E> <p> <s> <i> <l> <o> <n>  : "Ε"
-<Multi_key> <Z> <e> <t> <a>  : "Ζ"
-<Multi_key> <E> <t> <a>  : "Η"
-<Multi_key> <T> <h> <e> <t> <a>  : "Θ"
-<Multi_key> <I> <o> <t> <a>  : "Ι"
-<Multi_key> <K> <a> <p> <p> <a>  : "Κ"
-<Multi_key> <L> <a> <m> <b> <d> <a>  : "Λ"
-<Multi_key> <M> <u>  : "Μ"
-<Multi_key> <N> <u>  : "Ν"
-<Multi_key> <X> <i>  : "Ξ"
-<Multi_key> <O> <m> <i> <k> <r> <o> <n>  : "Ο"
-<Multi_key> <P> <i>  : "Π"
-<Multi_key> <R> <h> <o>  : "Ρ"
-<Multi_key> <S> <i> <g> <m> <a>  : "Σ"
-<Multi_key> <T> <a> <u>  : "Τ"
-<Multi_key> <U> <p> <s> <i> <l> <o> <n>  : "Υ"
-<Multi_key> <P> <h> <i>  : "Φ"
-<Multi_key> <C> <h> <i>  : "Χ"
-<Multi_key> <P> <s> <i>  : "Ψ"
-<Multi_key> <O> <m> <e> <g> <a>  : "Ω"
+<Multi_key> <underscore> <a> <l> <p> <h> <a>			: α
+<Multi_key> <underscore> <b> <e> <t> <a>			: β
+<Multi_key> <underscore> <g> <a> <m> <m> <a>			: γ
+<Multi_key> <underscore> <d> <e> <l> <t> <a>			: δ
+<Multi_key> <underscore> <e> <p> <s> <i> <l> <o> <n>		: ε
+<Multi_key> <underscore> <z> <e> <t> <a>			: ζ
+<Multi_key> <underscore> <e> <t> <a>				: η
+<Multi_key> <underscore> <t> <h> <e> <t> <a>			: θ
+<Multi_key> <underscore> <i> <o> <t> <a>			: ι
+<Multi_key> <underscore> <k> <a> <p> <p> <a>			: κ
+<Multi_key> <underscore> <l> <a> <m> <b> <d> <a>		: λ
+<Multi_key> <underscore> <m> <u>				: μ
+<Multi_key> <underscore> <n> <u>				: ν
+<Multi_key> <underscore> <x> <i>				: ξ
+<Multi_key> <underscore> <o> <m> <i> <k> <r> <o> <n>		: ο             
+<Multi_key> <underscore> <p> <i>				: π
+<Multi_key> <underscore> <r> <h> <o>				: ρ
+<Multi_key> <underscore> <s> <i> <g> <m> <a> <c>			: ς
+<Multi_key> <underscore> <s> <i> <g> <m> <a> <o>			: σ
+<Multi_key> <underscore> <t> <a> <u>				: τ
+<Multi_key> <underscore> <u> <p> <s> <i> <l> <o> <n>		: υ
+<Multi_key> <underscore> <p> <h> <i>				: φ
+<Multi_key> <underscore> <c> <h> <i>				: χ
+<Multi_key> <underscore> <p> <s> <i>				: ψ
+<Multi_key> <underscore> <o> <m> <e> <g> <a>			: ω
+<Multi_key> <A> <l> <p> <h> <a>			: "Α"
+<Multi_key> <B> <e> <t> <a>			: "Β"
+<Multi_key> <G> <a> <m> <m> <a>			: "Γ"
+<Multi_key> <D> <e> <l> <t> <a>			: "Δ"
+<Multi_key> <E> <p> <s> <i> <l> <o> <n>		: "Ε"
+<Multi_key> <Z> <e> <t> <a>			: "Ζ"
+<Multi_key> <E> <t> <a>  			: "Η"
+<Multi_key> <T> <h> <e> <t> <a>  		: "Θ"
+<Multi_key> <I> <o> <t> <a>  			: "Ι"
+<Multi_key> <K> <a> <p> <p> <a> 		: "Κ"
+<Multi_key> <L> <a> <m> <b> <d> <a>  		: "Λ"
+<Multi_key> <M> <u>  				: "Μ"
+<Multi_key> <N> <u>  				: "Ν"
+<Multi_key> <X> <i>  				: "Ξ"
+<Multi_key> <O> <m> <i> <k> <r> <o> <n>  	: "Ο"
+<Multi_key> <P> <i>  				: "Π"
+<Multi_key> <R> <h> <o>  			: "Ρ"
+<Multi_key> <S> <i> <g> <m> <a>  		: "Σ"
+<Multi_key> <T> <a> <u>  			: "Τ"
+<Multi_key> <U> <p> <s> <i> <l> <o> <n>  	: "Υ"
+<Multi_key> <P> <h> <i>  			: "Φ"
+<Multi_key> <C> <h> <i>  			: "Χ"
+<Multi_key> <P> <s> <i>  			: "Ψ"
+<Multi_key> <O> <m> <e> <g> <a>  		: "Ω"
 
 # Germanic-group languages
 <Multi_key> <grave> <a>                : "à" agrave
@@ -184,13 +163,6 @@ include /usr/share/X11/locale/en_US.UTF-8/Compose
 <Multi_key> <O> <E>                    : "Œ" OE
 <Multi_key> <o> <e>                    : "œ" oe
 <Multi_key> <s> <s>                    : "ß" ssharp
-
-
-
-# division
-<Multi_key> <1> <4>                    : "¼" onequarter
-<Multi_key> <1> <2>                    : "½" onehalf
-<Multi_key> <3> <4>                    : "¾" threequarters
 
 
 
@@ -252,4 +224,3 @@ include /usr/share/X11/locale/en_US.UTF-8/Compose
 <Multi_key> <backslash> <o> : "⎋"
 <Multi_key> <equal> <space> : "␀"
 <Multi_key> <n> <e> <x> : "力"
-
